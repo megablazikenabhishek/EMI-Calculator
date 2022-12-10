@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>EMI calculator</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-center">
+        <h2>EMI calculator</h2>
+      </div>
+    </nav>
+    <main class="todelete">
+      <form class="main">
+        <a class="hloan">home loan</a>
+        <a class="cloan">car loan</a>
+        <a class="ploan">personal loan</a>
+        <div class="form-row">
+          <label for="name" id="name"> Enter the home loan </label>
+          <input type="number" id="name" class="amount"/>
+          <label type="number" for="name"> intrest rate </label>
+          <input type="number" id="name" class="intrest_val"/>
+          <label for="name"> loan tenure </label>
+          <input
+            type="number"
+            id="name"
+            class="tenure"
+          />
+          <button class="year">yr</button>
+          <button class="month">mo</button>
+        <button type="submit" class="block">calculate</button>
+      </form>
+    </main>
+  </body>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+    ></script>
+  <script src="app.js"></script>
+</html>

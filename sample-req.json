@@ -1,0 +1,13 @@
+{
+    "sucess": true,
+    "data": {
+        "name": "Home Loan",
+        "loan_amount": 500000,
+        "intrest_rate": 5,
+        "tenure": {
+            "tenure_type": "year",
+            "type_val": 1,
+            "tenure_data": 5
+        }
+    }
+}

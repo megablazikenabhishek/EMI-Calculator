@@ -1,0 +1,16 @@
+{
+  "name": "emi-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Abhishek Upadhyay",
+  "license": "ISC",
+  "dependencies": {
+    "emi-calc": "^1.0.1",
+    "express": "^4.18.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
