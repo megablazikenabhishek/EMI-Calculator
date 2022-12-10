@@ -223,7 +223,7 @@ const displayResult = (result)=>{
           </div>
           <div class="intrest">
             <h3>
-              intrest
+              interest
             </h3>
             <h3>${intrest}/-</h3>
           </div>
