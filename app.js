@@ -12,8 +12,7 @@ app.use(express.static("public"));
 app.use(express.urlencoded({extended:false}));  //body parser
 app.use(express.json());    //post request
 
-const hostname = "0.0.0.0"
-const port = 4200
+const port = process.env.PORT || 4200
 
 //home loan
 app.use("/", home);
@@ -25,10 +24,6 @@ app.use("/car", car);
 app.use("/personal", personal);
 
 
-// app.listen(port, hostname, ()=>{
-//     console.log(`server listening to port http://${hostname}:${port}`);
-// })
-
 app.listen(port, ()=>{
-    console.log(`server listening to port http://${hostname}:${port}`);
+    console.log(`server listening at port ${port}`);
 })
