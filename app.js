@@ -25,10 +25,10 @@ app.use("/car", car);
 app.use("/personal", personal);
 
 
-app.listen(port, hostname, ()=>{
-    console.log(`server listening to port http://${hostname}:${port}`);
-})
-
-// app.listen(port, ()=>{
+// app.listen(port, hostname, ()=>{
 //     console.log(`server listening to port http://${hostname}:${port}`);
 // })
+
+app.listen(port, ()=>{
+    console.log(`server listening to port http://${hostname}:${port}`);
+})
