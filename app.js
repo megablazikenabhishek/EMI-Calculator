@@ -23,14 +23,14 @@ app.use("/car", car);
 //personal Loan
 app.use("/personal", personal);
 
-app.get("/vivek", (req, res)=>{
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    res.status(200).json({
-        name: "vivek",
-        kaam: "saapo wali harkate"
-    })
-})
+// app.get("/vivek", (req, res)=>{
+//     res.header("Access-Control-Allow-Origin", "*");
+//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+//     res.status(200).json({
+//         name: "vivek",
+//         kaam: "saapo wali harkate"
+//     })
+// })
 
 app.listen(port, ()=>{
     console.log(`server listening at port ${port}`);
