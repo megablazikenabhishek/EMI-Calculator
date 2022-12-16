@@ -23,6 +23,12 @@ app.use("/car", car);
 //personal Loan
 app.use("/personal", personal);
 
+app.get("/vivek", (req, res)=>{
+    res.status(200).json({
+        name: "vivek",
+        kaam: "saapo wali harkate"
+    })
+})
 
 app.listen(port, ()=>{
     console.log(`server listening at port ${port}`);
