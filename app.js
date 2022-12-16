@@ -24,6 +24,8 @@ app.use("/car", car);
 app.use("/personal", personal);
 
 app.get("/vivek", (req, res)=>{
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
     res.status(200).json({
         name: "vivek",
         kaam: "saapo wali harkate"
