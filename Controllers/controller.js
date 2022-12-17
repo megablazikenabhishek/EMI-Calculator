@@ -20,7 +20,7 @@ const postHome = (req, res)=>{
                 success:false
             });//The server cannot or will not process the request due to something that is perceived to be a client error
         else   
-            res.status(200).json({
+            res.status(201).json({
                 success:true,
                 "emi": loan_emi,
                 "intrest": total_intrest,
@@ -42,7 +42,7 @@ const postHome = (req, res)=>{
                 success:false
             });//The server cannot or will not process the request due to something that is perceived to be a client error
         else   
-            res.status(200).json({
+            res.status(201).json({
                 success:true,
                 "emi": loan_emi,
                 "intrest": total_intrest,
@@ -68,7 +68,7 @@ const postCar = (req, res)=>{
                 success:false
             });//The server cannot or will not process the request due to something that is perceived to be a client error
         else   
-            res.status(200).json({
+            res.status(201).json({
                 success:true,
                 "emi": loan_emi,
                 "intrest": total_intrest,
@@ -87,7 +87,7 @@ const postCar = (req, res)=>{
                 success:false
             });//The server cannot or will not process the request due to something that is perceived to be a client error
         else   
-            res.status(200).json({
+            res.status(201).json({
                 success:true,
                 "emi": loan_emi,
                 "intrest": total_intrest,
@@ -113,7 +113,7 @@ const postPersonal = (req, res)=>{
                 success:false
             });//The server cannot or will not process the request due to something that is perceived to be a client error
         else   
-            res.status(200).json({
+            res.status(201).json({
                 success:true,
                 "emi": loan_emi,
                 "intrest": total_intrest,
@@ -132,7 +132,7 @@ const postPersonal = (req, res)=>{
                 success:false
             });//The server cannot or will not process the request due to something that is perceived to be a client error
         else   
-            res.status(200).json({
+            res.status(201).json({
                 success:true,
                 "emi": loan_emi,
                 "intrest": total_intrest,
