@@ -15,13 +15,13 @@ app.use(express.json());    //post request
 const port = process.env.PORT || 4200
 
 //home loan
-app.use("/", home);
+app.use("/api/", home);
 
 //Car Loans
-app.use("/car", car);
+app.use("/api/car", car);
 
 //personal Loan
-app.use("/personal", personal);
+app.use("/api/personal", personal);
 
 // app.get("/vivek", (req, res)=>{
 //     res.header("Access-Control-Allow-Origin", "*");
